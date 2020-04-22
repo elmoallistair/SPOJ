@@ -1,10 +1,8 @@
 # Written: 28-Mar-2020
-# See reference: https://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/
+# https://www.spoj.com/problems/FCTRL/
 
 def solution(n):
-    # Initialize result
     count = 0
-    # Keep dividing n by powers of 5 and update Count
     i = 5
     while (n / i >= 1):
         count += int(n / i)
