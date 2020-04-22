@@ -18,3 +18,16 @@ Output:
 2
 88
 ```
+
+## Information
+In case of any problems with your code, you can take a look in the forum, you'll find the answer, only for this problem, in various languages.
+
+## Solution
+```
+while(True):
+    num = int(input())
+    if (num == 42) or (num > 99):
+        break
+    else:
+        print(num)
+```
